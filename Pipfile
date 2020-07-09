@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+tartiflette-aiohttp = "*"
+opencv-python = "*"
+numpy = "*"
+tqdm = "==4.35.0"
+keras = "==2.2.5"
+tensorflow = "==1.14"
+tensorflow-gpu = "==1.14"
+
+[requires]
+python_version = "3.6.9"
