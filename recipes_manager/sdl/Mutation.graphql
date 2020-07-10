@@ -1,9 +1,0 @@
-input RecipeInput {
-  id: Int!
-  name: String
-  cookingTime: Int
-}
-
-type Mutation {
-  updateRecipe(input: RecipeInput!): Recipe!
-}

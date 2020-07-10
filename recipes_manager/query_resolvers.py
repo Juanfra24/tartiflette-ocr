@@ -5,7 +5,7 @@ from tartiflette import Resolver
 from recipes_manager.data import get_value
 
 
-@Resolver("Query.image")
+@Resolver("Query.ocr")
 async def resolve_query_recipes(
     parent: Optional[Any],
     args: Dict[str, Any],

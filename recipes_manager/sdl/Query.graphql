@@ -4,20 +4,12 @@ enum UnitMeasurement {
   UNIT
 }
 
-type Ingredient {
-  name: String!
-  quantity: Float!
-  unitMeasurement: UnitMeasurement!
-}
+type image {
 
-type Recipe {
-  id: Int!
-  name: String!
-  ingredients: [Ingredient!]!
-  cookingTime: Int!
+  result: String!
+
 }
 
 type Query {
-  recipes: [Recipe!]
-  recipe(id: Int!): Recipe
+  ocr: [image!]
 }
